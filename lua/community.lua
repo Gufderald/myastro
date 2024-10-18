@@ -15,4 +15,7 @@ return {
   { import = "astrocommunity.pack.docker" },
   { import = "astrocommunity.pack.markdown" },
   { import = "astrocommunity.pack.lua" },
+  { import = "astrocommunity.pack.go" },
+  { import = "astrocommunity.search.nvim-spectre" },
+  { import = "astrocommunity.diagnostics.trouble-nvim" },
 }
