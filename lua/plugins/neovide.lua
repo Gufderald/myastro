@@ -39,6 +39,12 @@ return {
         ["XF86Paste"] = { "<C-r>+", desc = "Paste" },
         ["<S-Insert>"] = { "<C-r>+", desc = "Paste" },
       },
+      t = {
+        -- terminal mode paste (for terminal buffers, Claude, etc.)
+        ["<C-S-v>"] = { '<C-\\><C-n>"+pi', desc = "Paste" },
+        ["XF86Paste"] = { '<C-\\><C-n>"+pi', desc = "Paste" },
+        ["<S-Insert>"] = { '<C-\\><C-n>"+pi', desc = "Paste" },
+      },
     },
     options = {
       opt = { -- configure vim.opt options
