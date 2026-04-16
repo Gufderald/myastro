@@ -6,7 +6,6 @@
 return {
   "AstroNvim/astrocommunity",
   -- Plugins
-  { import = "astrocommunity.completion.codeium-vim" },
   -- { import = "astrocommunity.completion.avante-nvim" },
   { import = "astrocommunity.diagnostics.trouble-nvim" },
   { import = "astrocommunity.markdown-and-latex.markdown-preview-nvim" },
@@ -21,6 +20,9 @@ return {
   { import = "astrocommunity.pack.json" },
   { import = "astrocommunity.pack.lua" },
   { import = "astrocommunity.pack.markdown" },
-  { import = "astrocommunity.pack.python-ruff" },
+  { import = "astrocommunity.pack.prettier" },
+  { import = "astrocommunity.pack.python.base" },
+  { import = "astrocommunity.pack.python.basedpyright" },
+  { import = "astrocommunity.pack.python.ruff" },
   { import = "astrocommunity.pack.terraform" },
 }
